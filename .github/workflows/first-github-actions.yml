@@ -1,0 +1,9 @@
+name: Run Shell Commands
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latesh
+    steps:
+      - name: Echo a String
+        run: echo "Hello, This is my first github action workflow file
